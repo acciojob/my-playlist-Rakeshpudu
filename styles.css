@@ -1,19 +1,25 @@
 /*  your css code here. If applicable */
-body{
+body {
     background-color: #cccccc;
-}
-.player_one{
+    font-family: sans-serif;
+  }
+
+
+  .player_one a {
     text-decoration: none;
-    font-size: 20px;
     color: #000000;
-}
-h1{
-    text-align: center;
+    font-size: 20px;
+  }
+
+  h1 {
+    color: #000000;
     font-size: 40px;
+    text-align: center;
     padding: 20px;
     margin-top: 0px;
-}
-.player_one {
+  }
+
+  .player_one {
     margin-left: 30px;
     margin-right: 30px;
     padding: 20px;
@@ -21,12 +27,15 @@ h1{
     border-radius: 10px;
     border: 2px solid #000000;
   }
-  h2{
+
+  h2 {
+    color: #000000;
+    font-size: 25px;
     text-align: center;
-    font-size: 20px;
     padding: 5px;
     margin-top: 0px;
   }
+
   .player_two {
     margin-left: auto;
     margin-right: auto;
@@ -36,6 +45,8 @@ h1{
     border-radius: 10px;
     border: 2px solid #000000;
   }
+
+  
   .player_one li {
     padding-bottom: 10px;
   }
@@ -51,8 +62,9 @@ h1{
   .player_two audio {
     width: 100%;
   }
+  
+
    .player_one ul {
     list-style-type: none;
     padding: 0px;
   }
-
